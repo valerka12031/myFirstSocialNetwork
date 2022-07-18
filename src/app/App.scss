@@ -1,0 +1,23 @@
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sideBar profile";
+  grid-template-rows: 100px 1fr;
+  grid-template-columns: 200px 10fr;
+}
+
+.header {
+  grid-area: header;
+  background-color: red;
+}
+
+.sideBar {
+  grid-area: sideBar;
+  background-color: blue;
+}
+
+.profilePage {
+  grid-area: profile;
+  background-color: yellow;
+}
